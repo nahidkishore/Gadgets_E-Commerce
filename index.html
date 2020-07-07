@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Gadgets E-Commerce Website </title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <!-- **** Start navigation section part***** -->
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+    
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-product-hunt" aria-hidden="true"></i>
+              Product
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#smartphone">SmartPhone</a>
+              <a class="dropdown-item" href="#laptop">Laptop</a>
+              <a class="dropdown-item" href="#shoes">Shoes</a>
+              <a class="dropdown-item" href="#backpack">BackPack</a>
+              
+            </div>
+          </li>
+     
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa fa-info" aria-hidden="true"></i> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-us"> <i class="fa fa-address-card" aria-hidden="true"></i>Contact Us</a>
+          </li>
+          
+        </ul>
+        <span class="navbar-text login-font">
+          <a  id="loginModalToggle">
+              <span  class="fa fa-sign-in"></span> Login
+          </a>
+      </span>
+      </div>
+    </nav>
+  
+  
+    <!-- **** End navigation section part** -->
+
+
+  
+<!-- **** Start Login table modal section part-->
+
+
+    <div id="loginModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg" role="content">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title"> Login</h4>
+                  <button type="button" class="close" data-dismiss="modal">
+                      &times;
+                    </button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="form-row">
+                          <div class="form-group col-sm-4">
+                                  <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                  <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                          </div>
+                          <div class="form-group col-sm-4">
+                              <label class="sr-only" for="exampleInputPassword3">Password</label>
+                              <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                          </div>
+                          <div class="col-sm-auto">
+                              <div class="form-check">
+                                  <input class="form-check-input" type="checkbox">
+                                  <label class="form-check-label"> Remember me
+                                  </label>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="form-row">
+                          <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                          <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                      </div>
+                      
+      
+                  </form>
+      
+              </div>
+      
+          </div>
+      
+      </div>
+      
+   
+  </div>
+
+
+
+  <!-- **************End Login table modal section ***********-->
+
+  
+
+    <!-- *****Start Carousel Section Part******* -->
+
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+       
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+
+            <div class="row d-flex align-items-center">
+
+              <div class="col-md-5">
+                <h1>Mackbook Pro</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima possimus delectus voluptatem nemo. </p>
+                <button class="buy-now-button btn btn-danger">BUY NOW →</button>
+
+
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+
+              </div>
+            </div>
+           
+          </div>
+          <div class="carousel-item">
+
+            <div class="row d-flex align-items-center">
+
+              <div class="col-md-5">
+                <h1>Mackbook Pro</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima possimus delectus voluptatem nemo. </p>
+                <button class="buy-now-button  btn btn-danger">BUY NOW →</button>
+
+
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+
+              </div>
+            </div>
+           
+          </div>
+          <div class="carousel-item">
+
+            <div class="row d-flex align-items-center">
+
+              <div class="col-md-5">
+                <h1>Mackbook Pro</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima possimus delectus voluptatem nemo. </p>
+                <button class="buy-now-button  btn btn-danger">BUY NOW &rarr;</button>
+
+
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+
+              </div>
+            </div>
+           
+          </div>
+          <div class="carousel-item">
+
+            <div class="row d-flex align-items-center">
+
+              <div class="col-md-5">
+                <h1>Mega LCD Tv For Sports</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima possimus delectus voluptatem nemo. </p>
+                <button class="buy-now-button  btn btn-danger">BUY NOW &rarr;</button>
+
+
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/banner-images/tv.png" class="d-block w-100" alt="...">
+
+              </div>
+            </div>
+           
+          </div>
+          <div class="carousel-item">
+
+            <div class="row d-flex align-items-center">
+
+              <div class="col-md-5">
+                <h1>Headphone</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima possimus delectus voluptatem nemo. </p>
+                <button class="buy-now-button  btn btn-danger">BUY NOW &rarr;</button>
+
+
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/banner-images/headphone.png" class="d-block w-100" alt="...">
+
+              </div>
+            </div>
+           
+          </div>
+          <div class="carousel-item">
+
+            <div class="row d-flex align-items-center">
+
+              <div class="col-md-5">
+                <h1>Xbox</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, minima possimus delectus voluptatem nemo. </p>
+                <button class="buy-now-button  btn btn-danger">BUY NOW &rarr;</button>
+
+
+              </div>
+              <div class="col-md-7">
+                <img src="images/banner-products/banner-images/xbox.png" class="d-block w-100" alt="...">
+
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
+        <ol class="carousel-indicators">
+          <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+          <li data-target="#mycarousel" data-slide-to="2"></li>
+          <li data-target="#mycarousel" data-slide-to="3"></li>
+          <li data-target="#mycarousel" data-slide-to="4"></li>
+          <li data-target="#mycarousel" data-slide-to="5"></li>
+      </ol>
+      <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </a>
+    
+          <button class="btn btn-success btn-lg" id="carouselButton">
+           <span class="fa fa-pause"></span> 
+          </button>
+        </a>
+      </div>
+
+
+    </div>
+    <!-- *****End Carousel Section Part******* -->
+
+
+ <!-- ***** Start Smartphone Categories Section part**** -->
+
+    <div class="container" id="smartphone">
+
+      <div class="d-flex justify-content-between">
+        <div>
+          <h1>SmartPhone</h1>
+        </div>
+
+        <div>
+          <a  class="view-btn" href="#">See All</a>
+        </div>
+
+      </div>
+
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title d-flex justify-content-center">iPhone 11 Pro </h5>
+            <p class="card-text">Some quick example text to build on the card title</p>
+          </div>
+          <h5 class=" price d-flex justify-content-center">$999</h5>
+          <div class="card-footer d-flex justify-content-center">
+            <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Samsung Galaxy Note10+ </h5>
+            <p class="card-text">Some quick example text to build on the card title</p>
+          </div>
+          <h5 class=" price d-flex justify-content-center">$799</h5>
+          <div class="card-footer d-flex justify-content-center">
+            <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Huwaei Nova 2i </h5>
+            <p class="card-text">Some quick example text to build on the card title</p>
+          </div>
+          <h5 class="price d-flex justify-content-center">$899</h5>
+          <div class="card-footer d-flex justify-content-center">
+            <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+ <!-- ***** End Smartphone Categories Section part**** -->
+
+<!-- ***** Start Laptop Categories Section part**** -->
+<div class="container" id="laptop">
+  <div class="d-flex justify-content-between">
+    <div>
+      <h1>Laptop</h1>
+    </div>
+
+    <div>
+      <a class="view-btn" href="#">See All</a>
+    </div>
+
+  </div>
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-center">Asus VivoBook</h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class=" price d-flex justify-content-center">$999</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Razer Blade 15 </h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class=" price d-flex justify-content-center">$2799</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Xiaomi Mi NoteBook </h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class="price d-flex justify-content-center">$1999</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<!-- ***** End Laptop Categories Section part**** -->
+
+
+<!-- ***** Start Laptop Categories Section part**** -->
+<div class="container" id="shoes">
+  <div class="d-flex justify-content-between">
+    <div>
+      <h1>Shoes</h1>
+    </div>
+
+    <div>
+      <a class="view-btn" href="#">See All</a>
+    </div>
+
+  </div>
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-center">Supply 350</h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class=" price d-flex justify-content-center">$120</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Nike 360 </h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class=" price d-flex justify-content-center">$320</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Red Airmax </h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class="price d-flex justify-content-center">$350</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<!-- ***** End Laptop Categories Section part**** -->
+
+<!-- ***** Start Laptop Categories Section part**** -->
+<div class="container" id="backpack">
+  <div class="d-flex justify-content-between">
+    <div>
+      <h1>BackPack</h1>
+    </div>
+
+    <div>
+      <a class="view-btn" href="#">See All</a>
+    </div>
+
+  </div>
+
+  <div class="card-deck">
+    <div class="card">
+      <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-center">Red Laltu Bag</h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class=" price d-flex justify-content-center">$120</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Blue Niltu Bag </h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class=" price d-flex justify-content-center">$350</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Black Kaltu Bag </h5>
+        <p class="card-text">Some quick example text to build on the card title</p>
+      </div>
+      <h5 class="price d-flex justify-content-center">$380</h5>
+      <div class="card-footer d-flex justify-content-center">
+        <button class="buy-now-button btn btn-primary">BUY NOW &rarr;</button>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+<!-- ***** End Laptop Categories Section part**** -->
+
+
+
+<!-- *Start Categories Section Part*** -->
+
+<div class="container categories">
+
+  <div class="d-flex align-items-center justify-content-center category-border">
+      <h1>Categories</h1>
+
+  </div>
+
+ 
+<div class="row">
+  <div class="col-md-3 col-sm-12 d-flex align-items-center">
+    <div class="card w-100">
+      <div class="card-body text-center">
+        <img src="images/Categories/bag.png" alt="">
+        <h5>Bag</h5>
+      </div>
+    </div>
+
+  </div>
+  <div class="col-md-3 col-sm-12">
+    <div class="card w-100 beauty-cat">
+      <div class="card-body text-center">
+        <img src="images/Categories/perfume.png" alt="">
+        <h5>Beauty</h5>
+      </div>
+    </div>
+    <div class="card w-100 shoe-cat">
+      <div class="card-body text-center">
+        <img src="images/Categories/shoe.png" alt="">
+        <h5>Shoe</h5>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="col-md-6 d-flex align-items-center ">
+    <img class="w-100" src="images/Categories/pale-order.png" alt="">
+  </div>
+</div>
+ 
+</div>
+
+
+<!-- *Start Categories Section Part*** -->
+
+<!-- *****start Subscribe section -->
+<div class="container subscribe d-flex justify-content-center align-items-center" id="subscribe">
+  <div>
+    <h1>LET'S STAY IN TOUCH</h1>
+    <p>Get Update on sales, specials and more</p>
+    <input class="form-control" type="text">
+    <button class=" btn btn-success sub-button" >SUBMIT</button>
+    <div class="d-flex justify-content-center">
+      <a target="_blank" href="nahidkishore99@gmail.com"><button  class="btn btn-primary" id="registration">Join With Us</button></a>
+      
+    </div>
+
+  </div>
+</div>
+
+
+<!-- *****End Subscribe section -->
+
+<!-- ****Start Footer section**** -->
+<footer class="fixed-bottom">
+  <div class="text-center" id="contact-us">
+    <a target="_blank" href="nahidkishore99@gmail.com"><i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i>Google+</a>
+    <a  target="_blank" href="https://www.facebook.com/nahid.kishore"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>Facebook</a>
+    <a  target="_blank" href="https://www.linkedin.com/in/nahid-kishore/"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>LinkedIn</a>
+    <a target="_blank" href="https://www.linkedin.com/in/nahid-kishore/"> <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>Twitter</a>
+    <a target="_blank" href="https://www.linkedin.com/in/nahid-kishore/"> <i class="fa fa-youtube-play fa-lg" aria-hidden="true"></i>YouTube</a>
+    <a target="_blank" href="nahidkishore99@gmail.com"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i>Mail</a>
+</div>
+  <p>&copy;2020, Nahidul Islam, EWU</p>
+</footer>
+
+<!-- ****End Footer section**** -->
+
+
+    <!-- jQuery must come first, then Popper.js, and then our JavaScript plugins. -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  
+
+
+  <!-- Start ****For Carousel JS Script***** -->
+<script>
+$(document).ready(function(){
+    //// for carousel
+    $("#mycarousel").carousel( { interval: 3000 } );
+    $("#carouselButton").click(function(){
+        if($("#carouselButton").children("span").hasClass("fa-pause")){
+            $("#mycarousel").carousel('pause');
+            $("#carouselButton").children("span").removeClass("fa-pause");
+            $("#carouselButton").children("span").addClass("fa-play");
+        }
+        else if($("#carouselButton").children("span").hasClass("fa-play")){
+            $("#mycarousel").carousel('cycle');
+            $("#carouselButton").children("span").removeClass("fa-play");
+            $("#carouselButton").children("span").addClass("fa-pause");
+        }
+      
+    });
+   
+  });
+
+
+// for signing button
+$("#loginModalToggle").click(function(){
+  $("#loginModal").modal('toggle');
+  });
+
+
+</script>
+  
+
+  <!-- End ****For Carousel JS Script***** -->
+</body>
+</html>
