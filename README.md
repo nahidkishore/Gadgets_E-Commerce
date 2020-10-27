@@ -1,3 +1,11 @@
 # Gadgets_E-Commerce
 
-E-Commerce website using Html, Css, Bootstrap, JS 
+This is a simple e-commerce gadget website. This is a fully responsive site.
+
+## Technology
+
+- HTML
+- CSS
+- BOOTSTRAP
+- JS
+- FortAwesome
