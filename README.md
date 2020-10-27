@@ -14,4 +14,4 @@ This is a simple e-commerce gadget website. This is a fully responsive site.
 - FortAwesome
 
 ## Screenshots
-![screencapture-127-0-0-1-5501-index-html-2020-10-27-15_48_56](https://user-images.githubusercontent.com/39863835/97285215-23239080-186c-11eb-9c8a-65245a498325.png)
+![screencapture-127-0-0-1-5501-index-html-2020-10-27-16_01_10](https://user-images.githubusercontent.com/39863835/97286466-bad5ae80-186d-11eb-84a9-5cd64b0fe3af.png)
